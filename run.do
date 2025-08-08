@@ -1,0 +1,41 @@
+vsim -voptargs=+acc work.firstDSP_tb
+add wave-position insertpoint \
+sim:/firstDSP_tb/clk \
+sim:/firstDSP_tb/CEA \
+sim:/firstDSP_tb/CEB \
+sim:/firstDSP_tb/CEC \
+sim:/firstDSP_tb/CECARRYIN \
+sim:/firstDSP_tb/CED \
+sim:/firstDSP_tb/CEM \
+sim:/firstDSP_tb/CEOPMODE \
+sim:/firstDSP_tb/CEP \
+sim:/firstDSP_tb/RSTA \
+sim:/firstDSP_tb/RSTB \
+sim:/firstDSP_tb/RSTC \
+sim:/firstDSP_tb/RSTCARRYIN \
+sim:/firstDSP_tb/RSTD \
+sim:/firstDSP_tb/RSTM \
+sim:/firstDSP_tb/RSTOPMODE \
+sim:/firstDSP_tb/RSTP \
+sim:/firstDSP_tb/CARRYIN \
+sim:/firstDSP_tb/opmode \
+sim:/firstDSP_tb/A \
+sim:/firstDSP_tb/B \
+sim:/firstDSP_tb/D \
+sim:/firstDSP_tb/BCIN \
+sim:/firstDSP_tb/C \
+sim:/firstDSP_tb/PCIN \
+sim:/firstDSP_tb/CARRYOUT \
+sim:/firstDSP_tb/CARRYOUTF \
+sim:/firstDSP_tb/CARRYOUT_2 \
+sim:/firstDSP_tb/CARRYOUTF_2 \
+sim:/firstDSP_tb/BCOUT \
+sim:/firstDSP_tb/BCOUT_2 \
+sim:/firstDSP_tb/M \
+sim:/firstDSP_tb/M2 \
+sim:/firstDSP_tb/P \
+sim:/firstDSP_tb/P_2 \
+sim:/firstDSP_tb/PCOUT \
+sim:/firstDSP_tb/PCOUT_2 \
+sim:/firstDSP_tb/i
+run -all
