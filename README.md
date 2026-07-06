@@ -142,7 +142,7 @@ A comprehensive project report is included as **[`Ahmed_Saad_Sweffi_Project_1.pd
 
 ### 👨‍💻 Author
 
-**Done by me — Ahmed Saad Sweffi**
+**Ahmed Saad Sweffi**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Saad%20Sweffi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-saad-sweffi-09b2751a9)
 
