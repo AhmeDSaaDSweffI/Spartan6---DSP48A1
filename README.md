@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Spartan-6 DSP48A1 Slice — RTL Design & Verification
+# ⚡ Spartan-6 DSP48A1 Slice — RTL Design 
 
 ### A synthesizable Verilog model of the Xilinx Spartan-6 `DSP48A1` slice, with a self-checking testbench and an automated QuestaSim simulation flow.
 
@@ -9,8 +9,6 @@
 This repository provides a complete **RTL design, FPGA implementation, and functional verification** of the **`DSP48A1`** arithmetic slice embedded in the **Xilinx Spartan-6** FPGA fabric. The design is captured in parameterized **Verilog** and faithfully reproduces the slice's datapath — the **pre-adder/subtracter**, **18×18 signed multiplier**, and **48-bit post-adder/subtracter/accumulator** — together with the configurable pipeline registers, `OPMODE`-driven operand multiplexers, and dedicated `BCOUT`/`PCOUT` cascade paths that make the slice suitable for high-throughput DSP applications (FIR filters, MACs, and wide arithmetic).
 
 Verification is performed in **QuestaSim/ModelSim** using a **self-checking testbench** that instantiates two DUT configurations — synchronous and asynchronous reset — to validate reset, clock-enable, and arithmetic behavior. Synthesis and implementation are targeted with **Xilinx Vivado**.
-
-![DSP48A1 Block Diagram](https://github.com/user-attachments/assets/2ca09e32-0752-4066-9980-10da3fc28b73)
 
 ---
 
@@ -43,6 +41,14 @@ The `DSP48A1` slice is a high-performance, cascadable arithmetic block. This imp
 - 🔧 **Fully parameterized** — every pipeline register and control path is compile-time configurable.
 - 🔁 **`reg_mux` primitive** — a reusable register-plus-bypass-multiplexer that cleanly models the slice's optional pipeline stages.
 - ✅ **Self-checking verification** — reset and clock-enable integrity are asserted automatically with pass/fail reporting.
+
+<div align="center">
+
+### 🧩 DSP48A1 Slice Block Diagram
+
+![DSP48A1 Block Diagram](https://github.com/user-attachments/assets/2ca09e32-0752-4066-9980-10da3fc28b73)
+
+</div>
 
 ---
 
@@ -141,5 +147,9 @@ A comprehensive project report is included as **[`Ahmed_Saad_Sweffi_Project_1.pd
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Saad%20Sweffi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-saad-sweffi-09b2751a9)
 
 *Digital Design & Verification Engineer — RTL • FPGA • VLSI*
+
+---
+
+**Under the Supervision of Eng. Kareem Wassem**
 
 </div>
